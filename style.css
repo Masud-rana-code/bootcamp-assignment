@@ -1,0 +1,237 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient( to right, rgb(187, 187, 232), rgb(147, 208, 208));
+}
+
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+
+.navbar p{
+    margin-left: 20px;
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.navbar span{
+    color: rgb(168, 97, 10);
+}
+
+.btn{
+    background: linear-gradient(to right, rgb(245, 184, 18), rgb(238, 235, 78));
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 13px;
+
+}
+
+.btn:hover{
+     background: linear-gradient(to right, rgb(167, 126, 12), rgb(197, 194, 12));
+    cursor: pointer;
+}
+
+.connect{
+    margin: 40px 40px;
+    background-color: rgba(234, 226, 226, 0.744);
+    border-radius: 10px;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .connect img{
+    width: 150px;
+    }
+
+.connect h2{
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 20px;
+    }
+
+
+}
+.connect h2{
+    font-weight: bold;
+    margin: 10px 0;
+}
+#connect-container p{
+    color: gray;
+    margin: 15px 60px;
+    text-align: center;
+    font-size: 13px;
+}
+
+#why-need-container p{
+    color: gray;
+    margin: 15px 60px;
+    text-align: center;
+    font-size: 13px;
+}
+
+#why-need-container h3{
+    text-align: center;
+    margin: 10px auto;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+#why-need-contain{
+    margin: 40px 40px;
+    background-color: rgba(234, 226, 226, 0.744);
+    border-radius: 10px;
+    padding: 40px;
+    align-items: center;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px){
+    #why-need-contain{
+    margin: 40px 40px;
+    background-color: rgba(234, 226, 226, 0.744);
+    border-radius: 10px;
+    padding: 20px 0px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    }
+
+    #why-need-contain .why-need-text{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    }
+
+   #why-need-contain .why-need-img img{
+    width: 250px;
+    
+}
+
+    #why-need-contain .why-need-text h4{
+    font-size: 13px;
+    margin: 20px 0px;
+    text-align: center;
+    }
+}
+
+
+
+#why-need-contain .why-need-text{
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#why-need-contain .why-need-text h4{
+    font-size: 13px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+#why-need-contain .why-need-img{
+    width: 40%;
+    margin: 0 auto;
+
+}
+
+#why-need-contain .why-need-img img{
+    width: 200px;
+    margin: 0 auto;
+    
+}
+
+
+#inspiration-area p{
+    color: gray;
+    margin: 15px 60px;
+    text-align: center;
+    font-size: 13px;
+}
+
+#inspiration-area h3{
+    text-align: center;
+    margin: 10px auto;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#inspiration-area .inspiration-video{
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+
+#inspiration-area .inspiration-video video{
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 10px;
+    border: 3px solid gray;
+}
+
+.target-card{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.target-card .card{
+    background: linear-gradient(to bottom,rgb(204, 225, 248), rgb(48, 147, 158));
+    margin: 10px 20px;
+    padding: 30px 80px;
+    border-radius: 10px;
+
+}
+
+#footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+
+#footer .footer-text{
+    width: 50%;
+    padding-left: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#footer .footer-text p{
+    text-align: center;
+    margin-top: 6px;
+}
+
+#footer .footer-contact{
+    width: 50%;
+    text-align: end;
+    padding-right: 40px;
+}
+
+#footer .footer-contact img{
+  margin: 0 10px;
+  cursor: pointer;
+}
